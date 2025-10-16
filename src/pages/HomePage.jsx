@@ -16,9 +16,9 @@ function HomePage(){
         BuscarJogos();
     }, []);
     return (
-        <div>
-             <h1>Página Inicial</h1>
-            <p>Lista de Jogos</p>
+        <div className ="home-container">
+             <h1>Explore o Universo Gamer</h1>
+             <p>As últimas análises da comunidade</p>
 
             <div className ="home-page">
             {games.map((game)=> (
